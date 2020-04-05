@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import Table from './components/Table';
+import { ProductsDataGrid } from './components/products-data-grid';
+import { Header } from './components/app-header';
 
 function App() {
   return (
     <>
-      <header className="header">
-        Product Management
-      </header>
+      <Header />
       <div className="content">
-        <Table />
+        <ProductsDataGrid />
       </div>
     </>
   );
